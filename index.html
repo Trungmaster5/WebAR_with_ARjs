@@ -22,15 +22,23 @@
     <!-- handle marker with hiro preset -->
     <a-marker preset='hiro'>
       <!-- <a-box position='0 0.5 0' material='color: green;'></a-box> -->
-			<!-- <a-text value="Hello, World!"></a-text> -->
-			<!-- <a-image src="https://image.ibb.co/i6PGS5/mat_truoc_Trung_jp.jpg"></a-image> -->
+			<a-text color= "green" value="TRUNG CARD" heigh="500"></a-text>
 			<a-image src="mat_truoc_Trung_jp.jpg"></a-image>
     </a-marker>
-    <!-- handle barcode marker -->
-    <a-marker type='barcode' value='5'>
+
+		<!-- handle barcode marker -->
+    <!-- <a-marker type='barcode' value='5'>
       <a-box position='0 0.5 0' material='color: blue;'></a-box>
-    </a-marker>
+    </a-marker> -->
+
+		<!--TODO: PLAY WITH GLTF -->
+		<!-- <a-assets>
+			<a-asset-item id="tree" src="Wood_Tower.gltf"></a-asset-item>
+		</a-assets> -->
+
     <!-- add a simple camera -->
     <a-entity camera></a-entity>
+		<!-- <a-entity gltf-model="#tree" scale="0.01 0.01 0.01"></a-entity>
+		<a-marker-camera preset='hiro'></a-marker-camera> -->
   </a-scene>
 </body>
